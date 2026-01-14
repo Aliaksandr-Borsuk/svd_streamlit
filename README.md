@@ -53,7 +53,9 @@ streamlit run app.py
 
 ## Онлайн-демо
 Развернуто на Streamlit Community Cloud:
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aliaksandr-borsuk-npp8nu3ljccxffkh8kvf6h.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aliaksandr-borsuk-npp8nu3ljccxffkh8kvf6h.streamlit.app/)  
+
+- Для развёртывания в Streamlit Cloud убедитесь, что используется Python 3.10 (по умолчанию может быть 3.13).
 
 ---
 
@@ -75,10 +77,12 @@ svd_streamlit/
 ├── app.py                  # Streamlit UI  
 ├── train_svd.py            # Обучение модели  
 ├── svd_model.pkl           # Сохранённая модель + маппинги  
-├── utils/   
+├── utils/
+│   ├── __init__.py         # делает папку Python-пакетом
 │   ├── data_io.py          # Загрузка train/test/meta   
 │   └── preprocessing.py    # Построение sparse UI-матрицы   
-├── requirements.txt        # Для Streamlit Cloud   
+├── requirements.txt        # Для Streamlit Cloud
+├── pyproject.toml          # Для локальной работы с Poetry
 ├── .gitignore              # Исключает data/  
 └── README.md
 ```
