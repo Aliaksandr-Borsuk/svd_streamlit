@@ -1,6 +1,6 @@
 # "SVD Recommender - Streamlit Demo"
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://___________-svd-streamlit.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aliaksandr-borsuk-npp8nu3ljccxffkh8kvf6h.streamlit.app/)
 
 Веб-интерфейс для демонстрации рекомендаций на основе **TruncatedSVD** (разложение матрицы взаимодействий).  
 Это продолжение проекта [Recommender_Systems_project](https://github.com/Aliaksandr-Borsuk/Recommender_Systems_project), где был реализован и сравнен ряд классических и нейросетевых алгоритмов. Здесь - минимальный, но рабочий MVP для интерактивного использования .
@@ -53,7 +53,7 @@ streamlit run app.py
 
 ## Онлайн-демо
 Развернуто на Streamlit Community Cloud:
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://___________-svd-streamlit.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aliaksandr-borsuk-npp8nu3ljccxffkh8kvf6h.streamlit.app/)
 
 ---
 
