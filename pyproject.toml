@@ -1,0 +1,20 @@
+[project]
+name = "svd-streamlit"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aliaksandr Borsuk",email = "yabarsukby@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy (==1.26.4)",
+    "pandas (==2.2.2)",
+    "scikit-learn (==1.7.0)",
+    "streamlit (>=1.52.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
